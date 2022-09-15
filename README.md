@@ -1,6 +1,8 @@
 ## File
 ```main.py``` è il programma che rimane sempre in esecuzione, esegue un ciclo scarica-esegui ogni 30 secondi
+
 ```payload.py``` è il programma scaricato ed eseguito
+
 Il link https://raw.githubusercontent.com/liverfried/slave/main/payload.py ci mette un po' ad aggiornarsi dopo la modifica del file, e probabilmente rimane accessibile solo per un tempo limitato, ma per riattivarlo basta aprire il file dal sito in modalità raw
 
 ## Test eseguiti
