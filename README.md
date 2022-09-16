@@ -14,3 +14,5 @@ Il link https://raw.githubusercontent.com/liverfried/slave/main/payload.py ci me
 - [x] Utilizzare ```os.remove(__file__)``` rimuove il programme
 - [x] Utilizzare ```exit()``` nel payload termina il programma
 - I due comandi precedenti insieme rimuovono ogni traccia del codice
+
+paylaod.py ora è vuoto. Il tuo codice albe bloccava anche l'altro che lo scarica.
